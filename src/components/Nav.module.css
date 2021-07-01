@@ -1,0 +1,41 @@
+.NavBar {
+    display:flex;
+    width:100%;
+    padding:5px 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-size: 16px;
+    background-color: #85c4cc;
+}
+
+
+.text {
+    text-decoration: none;
+    display:flex;
+    margin-top:2px;
+    align-items: center;
+    text-align: center;
+    padding: 0 15px;
+    color:rgb(209, 217, 217);
+    height:20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+.link {
+    margin:5px auto;
+    padding: 0 15px;
+    color:white;
+    height:30px;
+    border-right:1px solid black
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    max-height:30px;
+}

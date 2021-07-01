@@ -1,0 +1,39 @@
+.prop {
+ background-color:rgb(148,203,220);
+ border-radius:100px;
+ padding:10px 20px;
+ width:120%;
+ margin:10px 5px;
+ box-sizing: border-box;
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ color:white;
+ font-size: 11px;
+}
+
+.body {
+    padding:10px;
+    border-left: 1px solid white;
+}
+
+.header {
+    display:flex;
+    align-items: center;
+    padding-bottom:20px;
+    color:white;
+    font-size:35px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    width:250px;
+    height:10%;
+    position:absolute;
+    transform: rotate(270deg) translate(-100px,-120px);
+}
+
+.container {
+    display:flex;
+    width:100%;
+    justify-content: center;
+}
+
+.city {
+    width:100%
+}
